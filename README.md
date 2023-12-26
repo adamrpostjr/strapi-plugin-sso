@@ -40,6 +40,8 @@ module.exports = ({env}) => ({
   'strapi-plugin-sso': {
     enabled: true,
     config: {
+      // either set the token to sessionstorage if false or localstorage if true
+      REMEMBER_ME: false,
       // Google
       GOOGLE_OAUTH_CLIENT_ID: '[Client ID created in GCP]',
       GOOGLE_OAUTH_CLIENT_SECRET: '[Client Secret created in GCP]',
