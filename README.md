@@ -21,11 +21,11 @@ Please read the [documents](#user-content-documentationenglish) for some precaut
 
 # Easy to install
 ```shell
-yarn add strapi-plugin-sso
+yarn add @adamrpotjr/strapi-plugin-sso
 ```
 or
 ```shell
-npm i strapi-plugin-sso
+npm i @adamrpotjr/strapi-plugin-sso
 ```
 
 # Requirements
